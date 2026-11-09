@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RatingShelf Privacy Policy</title>
+<style>
+  body{font-family:"Segoe UI",system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1b1f3b;background:#fff}
+  h1{color:#0a0f30}h2{color:#1f5bff;margin-top:1.8em;font-size:1.15em}
+  .updated{color:#667}
+</style>
+</head>
+<body>
+<h1>RatingShelf Privacy Policy</h1>
+<p class="updated">Last updated: November 6, 2026</p>
+
+<p>RatingShelf is a Windows app that looks up the ratings of the movie and TV files on your PC and helps you organize them. This policy explains what information RatingShelf uses and where it goes. In short: RatingShelf does not collect your personal information, has no user accounts, and sends no analytics or tracking data to us or anyone else.</p>
+
+<h2>Information that stays on your PC</h2>
+<p>The following is stored only on your computer, in RatingShelf's own data folder. It is never sent to us:</p>
+<ul>
+  <li>The folders you choose to scan or watch, and your sorting rules and options</li>
+  <li>The list of video files RatingShelf finds, and their matched titles and ratings</li>
+  <li>Your API keys (TMDB, and OMDb if you add one) and your Plex token, if you connect Plex. These are encrypted with Windows' built-in data protection, tied to your Windows account.</li>
+  <li>The history of moves and copies (used for Undo)</li>
+  <li>An activity log and crash log, kept to help troubleshoot problems. Keys and tokens are never written to them.</li>
+</ul>
+<p>Backups you create are saved only where you choose. Keys are included in a backup only if you choose to include them, and are then encrypted with a password you set.</p>
+
+<h2>Information sent to third-party services</h2>
+<p>To look up ratings, RatingShelf contacts these services directly from your PC, using the API key you provide:</p>
+<ul>
+  <li><b>The Movie Database (TMDB)</b>: the title and year read from a file name (for example, "The Matrix", 1999) or a TMDB ID, to find the movie or show and its rating. File names, folder paths and file contents are not sent. Poster images are loaded from TMDB's image servers. TMDB's privacy policy: https://www.themoviedb.org/privacy-policy</li>
+  <li><b>OMDb</b> (only if you add an OMDb key): a title and year, or an IMDb ID, for titles TMDB couldn't rate.</li>
+  <li><b>Rename tab data sources</b> (only when you click Match in the Rename tab): the title and year read from a file name, or the ID of the show you picked, are sent to the source you chose there: TMDB, OMDb, TVmaze (api.tvmaze.com), TheTVDB (api4.thetvdb.com, with your TheTVDB key) or AniDB (anidb.net, with the client name you registered). Answers are cached on your PC. The "Local .nfo files" and "File name only" sources send nothing.</li>
+  <li><b>Your Plex Media Server</b> (only if you connect one): RatingShelf asks your own Plex server to rescan folders, reads its library list to match your files, and sets content ratings. This traffic goes to the server address you enter, normally on your own network.</li>
+</ul>
+<p>As with any internet connection, these services can see your IP address when RatingShelf contacts them. Their own privacy policies apply to the requests they receive.</p>
+
+<h2>What RatingShelf does not do</h2>
+<ul>
+  <li>No advertising, analytics, telemetry or tracking</li>
+  <li>No user accounts or sign-in</li>
+  <li>It doesn't upload, read or share the contents of your video files</li>
+  <li>It doesn't sell or share any information</li>
+</ul>
+
+<h2>Children</h2>
+<p>RatingShelf does not knowingly collect any information from anyone, including children.</p>
+
+<h2>Removing your data</h2>
+<p>Uninstalling RatingShelf (Start menu → right-click RatingShelf → Uninstall) removes the app and its data folder. Backups you saved elsewhere, and files you organized, are not touched.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated version will be posted at this address with a new "Last updated" date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: frank@senseilemon.ai</p>
+</body>
+</html>
